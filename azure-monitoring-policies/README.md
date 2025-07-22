@@ -1,4 +1,4 @@
-#  generate-dynatrace-gcp-extension
+#  Azure Policy definitions for Azure Native Dynatrace Service samples
 ### about
 sample Azure Policy definitions that ensures Diagnostic Settings are created
 
