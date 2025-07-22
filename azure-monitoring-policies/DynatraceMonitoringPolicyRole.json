@@ -1,0 +1,40 @@
+{
+    "properties": {
+        "roleName": "DynatraceMonitoringPolicy",
+        "description": "",
+        "assignableScopes": [
+            ""
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "*/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourcegroups/deployments/*",
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Insights/diagnosticSettings/*",
+                    "Dynatrace.Observability/monitors/write",
+                    "Dynatrace.Observability/monitors/tagRules/write",
+                    "Dynatrace.Observability/monitors/monitoredSubscriptions/write",
+                    "Dynatrace.Observability/locations/operationStatuses/write",
+                    "Dynatrace.Observability/checkNameAvailability/action",
+                    "Dynatrace.Observability/register/action",
+                    "Dynatrace.Observability/unregister/action",
+                    "Dynatrace.Observability/getMarketplaceSaaSResourceDetails/action",
+                    "Dynatrace.Observability/locations/operationStatuses/read",
+                    "Dynatrace.Observability/locations/read",
+                    "Dynatrace.Observability/monitors/read",
+                    "Dynatrace.Observability/monitors/listMonitoredResources/action",
+                    "Dynatrace.Observability/monitors/listLinkableEnvironments/action",
+                    "Dynatrace.Observability/monitors/monitoredSubscriptions/read",
+                    "Dynatrace.Observability/monitors/tagRules/read",
+                    "Dynatrace.Observability/registeredSubscriptions/read",
+                    "Dynatrace.Observability/operations/read"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

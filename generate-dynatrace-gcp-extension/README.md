@@ -1,8 +1,4 @@
-# about
-this repo contains scripts that I found useful with daily DevOps / CloudOps activities
-
-# content
-##  generate-dynatrace-gcp-extension
+#  generate-dynatrace-gcp-extension
 ### about
 The script automates building custom GCP extensions for https://github.com/dynatrace-oss/dynatrace-gcp-monitor.
 
